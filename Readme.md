@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Andrey Khlybov](https://up.htmlacademy.ru/htmlcss/29/user/1590595).
-* Наставник: `Неизвестно`.
+* Наставник: [Катя Микулянец](https://htmlacademy.ru/profile/id50166)
 
 ---
 
