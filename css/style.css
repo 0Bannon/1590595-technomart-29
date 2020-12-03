@@ -1,0 +1,17 @@
+:root{
+  --basic-bg: #293449;
+  --footer-bg: #32425C;
+  --main-white: rgba(0, 0, 0, 0.0001);
+  --make-order-button: #63A63E;
+  --main-nav: #32425C;
+  --promo-materials: #FFBF47;
+  --promo-instruments: #3BBCE3;
+  --promo-vehicles: #DC91D8;
+  --promo-discounts: #8ED78F;
+  --promo-delivery: #FFC047;
+  --basic-red: #EE3643;
+  --popular-bg: #F9F5F0;
+  --services-bg: #F1F5F7;
+  --info-item-basic: #32425C;
+
+}
