@@ -1,17 +1,90 @@
 :root{
+  /* Custom Colors */
   --basic-bg: #293449;
-  --footer-bg: #32425C;
-  --main-white: rgba(0, 0, 0, 0.0001);
+  --main-grey: #F1F5F7;  /*main; services bg;*/
   --make-order-button: #63A63E;
-  --main-nav: #32425C;
+  --main-purple: #32425C; /* main nav bg; info-item; popular goods font color; delivery font*/
   --promo-materials: #FFBF47;
   --promo-instruments: #3BBCE3;
   --promo-vehicles: #DC91D8;
   --promo-discounts: #8ED78F;
   --promo-delivery: #FFC047;
+  --promo-perforators-top: rgba(0,0,0,0.25);
   --basic-red: #EE3643;
   --popular-bg: #F9F5F0;
-  --services-bg: #F1F5F7;
-  --info-item-basic: #32425C;
+  /* Fonts' Colors*/
+  --basic-white: #FFFFFF;
+  --basic-black: #000000;
+  --address-bottom: #F3F7F9;
+  --strikethrough-grey: #A9A9A9;
+  --footer-yellow: #FFD180;
+}
+/* Global */
 
+body{
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  background-color: var(--main-white);
+  color: var(--basic-black);
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.first-navigation{
+  background-color: var(--main-purple);
+  color: var(--basic-white);
+}
+.first-navigation a{
+  color: var(--basic-white);
+}
+.main-navigation{
+  background-color: var(--main-grey);
+}
+.login-section a{
+  color: var(--basic-black);
+  font-size: 21px;
+  line-height: 21px;
+}
+.login-section div{
+  background-color: var(--basic-white);
+}
+
+.second-navigation p:first-child{
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+  color: var(--basic-red);
+}
+.address-top{
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--main-purple);
+}
+.address-top-phone{
+  border: 2px solid var(--basic-white);
+}
+.address-top-phone a{
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+  color: var(--basic-red);
+
+}
+.site-navbar{
+  background-color: var(--main-purple);
+}
+.feature-list{
+  list-style: none;
+}
+.feature-item a{
+  color: var(--basic-white);
 }
