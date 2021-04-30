@@ -40,14 +40,17 @@ img {
   height: auto;
 }
 .first-navigation{
-  background-color: var(--main-purple);
-  color: var(--basic-white);
+  background-color: var(--basic-bg);
 }
-.first-navigation a{
+.first-navigation a {
   color: var(--basic-white);
 }
 .main-navigation{
   background-color: var(--main-grey);
+}
+.search {
+  background-color: transparent;
+  border: none;
 }
 .login-section a{
   color: var(--basic-black);
