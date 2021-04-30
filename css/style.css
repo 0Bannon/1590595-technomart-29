@@ -1,6 +1,7 @@
 :root{
   /* Custom Colors */
   --basic-bg: #293449;
+  --header-bg: #ffffff;
   --main-grey: #F1F5F7;  /*main; services bg;*/
   --make-order-button: #63A63E;
   --main-purple: #32425C; /* main nav bg; info-item; popular goods font color; delivery font*/
@@ -12,8 +13,8 @@
   --promo-perforators-top: rgba(0,0,0,0.25);
   --basic-red: #EE3643;
   --popular-bg: #F9F5F0;
-  /* Fonts' Colors*/
   --basic-white: #FFFFFF;
+    /* Fonts' Colors*/
   --basic-black: #000000;
   --address-bottom: #F3F7F9;
   --strikethrough-grey: #A9A9A9;
@@ -29,7 +30,7 @@ body{
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
-  background-color: var(--main-white);
+  background-color: var(--basic-white);
   color: var(--basic-black);
 }
 a {
@@ -39,17 +40,21 @@ img {
   max-width: 100%;
   height: auto;
 }
+.main-header {
+  background-color: var(--header-bg);
+}
 .first-navigation{
   background-color: var(--basic-bg);
 }
 .first-navigation a {
   color: var(--basic-white);
 }
-.main-navigation{
-  background-color: var(--main-grey);
+.main-header-logo {
+  background-color: var(--basic-red);
 }
+
 .search {
-  background-color: transparent;
+  background-color: var(--basic-bg);
   border: none;
 }
 .login-section a{
